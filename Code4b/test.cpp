@@ -6,7 +6,6 @@
 
 #include "GreyScale.h"
 #include "unit.h"
-
 int readBit(std::istream& s, char& byte, int& bitPos) {
     if(bitPos == 7) {
         byte = s.get();
